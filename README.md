@@ -1,8 +1,8 @@
 # EMployees Task Tracking Calendar
 
-## Project info
-
 This project is a React application that displays a weekly schedule for a group of employees.
+
+## Project info
 
 Features:
 
@@ -23,6 +23,11 @@ This project is built with:
 - Node.js (for the server-side API)
 - Express.js (for building the API server)
 - MySQL (for database management)
+
+ ## Configuration
+
+Create a .env file in the root of the project, and replace placeholders with your actual database credentials.
+Note: Do not commit the .env file to version control.
 
 ## How can to use this code?
 
@@ -48,7 +53,3 @@ cd ..
 # Step 7: Start the react server.
 npm run dev
 ``
-## Configuration
-
-Create a .env file in the root of the project, and replace placeholders with your actual database credentials.
-Note: Do not commit the .env file to version control.
