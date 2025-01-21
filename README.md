@@ -1,4 +1,4 @@
-# EMployees Task Tracking Calendar
+# Employees Task Tracking Calendar
 
 This project is a React application that displays a weekly schedule for a group of employees.
 
