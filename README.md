@@ -1,69 +1,54 @@
-# Welcome to your Lovable project
+# EMployees Task Tracking Calendar
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/29817154-0981-4f69-9813-28849bd479d1
+This project is a React application that displays a weekly schedule for a group of employees.
 
-## How can I edit this code?
+Features:
 
-There are several ways of editing your application.
+- Employee Schedules: Displays a weekly schedule for multiple employees.
+- Date Navigation: Allows users to navigate between weeks using "Previous Week" and "Next Week" buttons.
+- Date Selection: Enables users to select a specific month and year.
+- Task Display: Displays tasks for each employee on their respective days, including task title, start time, end time, and type (work or    meeting).
+- Task Hover: Provides hover for each task to display description.
 
-**Use Lovable**
+## Technologies used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/29817154-0981-4f69-9813-28849bd479d1) and start prompting.
+This project is built with:
 
-Changes made via Lovable will be committed automatically to this repo.
+- React
+- JavaScript
+- Tailwind CSS (for styling)
+- Axios (for making API requests)
+- Node.js (for the server-side API)
+- Express.js (for building the API server)
+- MySQL (for database management)
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## How can to use this code?
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <REPOSITORY_URL>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd <PROJECT_NAME>
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Navigate to the api directory.
+cd api
+
+# Step 5: Start the node server.
+node schedule.cjs
+
+# Step 6: Navigate back to project directory.
+cd ..
+
+# Step 7: Start the react server.
 npm run dev
-```
+``
+## Configuration
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/29817154-0981-4f69-9813-28849bd479d1) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Create a .env file in the root of the project, and replace placeholders with your actual database credentials.
+Note: Do not commit the .env file to version control.
